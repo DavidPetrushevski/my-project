@@ -3,3 +3,11 @@ CREATE TABLE users (
     name VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE
 );
+
+
+
+CREATE TABLE cars (
+    id SERIAL PRIMARY KEY,
+    model VARCHAR(50) NOT NULL,
+    make VARCHAR(100) NOT NULL UNIQUE
+);
